@@ -18,3 +18,4 @@ const prevImage = () => {
     }, 500);
 }
  return
+console.log(Math.sin(3))
