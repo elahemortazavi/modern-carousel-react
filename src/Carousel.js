@@ -17,5 +17,10 @@ const prevImage = () => {
         setTransition(false);
     }, 500);
 }
- return
-console.log(Math.sin(3))
+ return (
+    <div className="carousel">
+        <div className= {`content-card ${transition ? "transition" : ""}`}>
+            
+        </div>
+    </div>
+ )
