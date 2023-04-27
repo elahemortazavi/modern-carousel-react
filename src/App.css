@@ -1,4 +1,21 @@
+
+body {
+  background-color: aquamarine;
+}
 .App {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -11,7 +28,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}className="link"
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
