@@ -16,7 +16,7 @@ const prevImage = () => {
         setCurrentContentIndex === 0 ? content.length - 1 : currentContentIndex - 1);
         setTransition(false);
     }, 500);
-}
+
  return (
    <div className="carousel">
      <div className={`content-card ${transition ? "transition" : ""}`}>
@@ -32,3 +32,4 @@ const prevImage = () => {
      </div>
    </div>
  );
+ }
