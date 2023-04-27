@@ -18,9 +18,17 @@ const prevImage = () => {
     }, 500);
 }
  return (
-    <div className="carousel">
-        <div className= {`content-card ${transition ? "transition" : ""}`}>
-            
-        </div>
-    </div>
- )
+   <div className="carousel">
+     <div className={`content-card ${transition ? "transition" : ""}`}>
+       <img src={content[currentContentIndex].img} alt="carousel" />
+       <div className="content">
+         <h1>{content[currentContentIndex].title}</h1>
+         <p>{content[currentContentIndex].description}</p>
+       </div>
+     </div>
+     <div className="btn-container">
+       <button onClick={prevImage}>Previous</button>
+       <button onClick={nextImage}>Next</button>
+     </div>
+   </div>
+ );
